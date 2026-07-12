@@ -41,6 +41,8 @@ apis:
       - type: x-ckan-version
         value: '2.6.6'
 common:
+  - type: DomainSecurity
+    url: security/dati-comune-lecce-it-domain-security.yml
   - type: Website
     url: https://dati.comune.lecce.it
   - type: Documentation
@@ -53,6 +55,8 @@ common:
     url: finops/dati-comune-lecce-it-finops.yml
   - type: Review
     url: review.yml
+  - url: https://dati.comune.lecce.it/blog/?feed=rss2
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
